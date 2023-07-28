@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  .column {
+    float: left;
+     width: 24%;
+    padding: 5px; 
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display:flex;
+  }
+  .main{
+    background-image: url('https://images.pexels.com/photos/7078622/pexels-photo-7078622.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
